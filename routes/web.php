@@ -20,24 +20,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    /*
-    $images = Image::all();
-    foreach($images as $image){
-        echo $image->image_path ."<br>";
-        echo $image->description ."<br>";
-        echo $image->user->name ."<br>";
-        
-
-        foreach($image->comments as $comment){
-            echo "<h4>Comentarios</h4> ";
-            echo $comment->user->name.' '.$comment->user->surname.': ';
-            echo $comment->content."<br>";
-        }
-        echo "Likes: ".count($image->likes);
-        echo "<hr>";
-    }
-    die();
-    */
     return view('welcome');
 });
 
