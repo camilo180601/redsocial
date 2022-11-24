@@ -1,0 +1,193 @@
+form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+}
+
+.pub_image .container-avatar{
+    float: left;
+    margin-right: 15px;
+}
+
+
+.pub_image .btn-menu{
+
+    float: right;
+    width: 20%;
+}
+
+.pub_image .btn-menu img{
+    float: right;
+    height: 35px;
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+    float: left;
+}
+
+.pub_image .data-user a{
+    color: #444;
+    text-decoration:none;
+}
+
+
+.image-container{
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.image-detail{
+    max-height: 500px;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.pub_image .description{
+
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.pub_image .card-body{
+
+    padding: 0px;
+}
+
+.pub_image .btn-comments{
+
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.likes {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.likes img{
+
+    width: 20px;
+}
+
+.fecha {
+    color: #C8C8C8;
+}
+
+.pub_image .comments{
+
+    padding: 30px;
+}
+
+.profile-user{
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.profile-user .container-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float:left;
+}
+.profile-user .container-avatar img{
+   height: 100%;
+}
+
+.profile-user .user-info{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.modal-body .btn-editar{
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(38, 38, 38);
+}
+.modal-body .btn-eliminar{
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(237, 73, 86);
+    font-weight: 700;
+}
+.modal-body .btn-denunciar{
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(237, 73, 86);
+    font-weight: 700;
+}
+.modal-body .btn-cancelar{
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(38, 38, 38);
+}
+.modal-body h4{
+    font-weight: bold;
+    text-align: center;
+}
+.modal-body h6{
+    color: #8E8E8E;
+    text-align: center;
+}
+.modal{
+    margin-top: 200px;
+    height: 100%;
+    max-width: 100%;
+}
