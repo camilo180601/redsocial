@@ -18,8 +18,12 @@ class UserController extends Controller
         $this->middleware('auth');
     }
     
-    public function index(){
-        $users = User::orderBy('id', 'desc')->get();
+    public function index($search = null){
+        if(!empty($search)){
+            
+        }else{
+            $users = User::orderBy('id', 'desc')->get();
+        }
         return view('user.index',[
             'users' => $users
         ]);
