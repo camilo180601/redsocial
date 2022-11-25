@@ -26,7 +26,7 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-//Usuario
+//Usuario123
 Route::get('/configuracion', [UserController::class, 'config'])->name('config');
 Route::post('/user/update', [UserController::class, 'update'])->name('user.update');
 Route::get('/user/avatar/{filename}', [UserController::class, 'getImage'])->name('user.avatar');
