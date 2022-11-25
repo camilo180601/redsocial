@@ -196,3 +196,17 @@ form .avatar{
     margin-left: 0px;
     padding-left: 0px;
 }
+.report{
+    text-align: center;
+    color: rgb(142, 142, 142);
+    font-weight: 400;
+}
+.description-user{
+    text-decoration: none;
+    color: black;
+}
+
+.comment-user{
+    text-decoration: none;
+    color: black;
+}

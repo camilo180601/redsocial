@@ -9,7 +9,6 @@
             <a href="{{route('profile', ['id' => $image->user->id])}}">
                 {{ $image->user->nick }}
             </a>
-
         </div>
     </div>
 
@@ -37,7 +36,7 @@
         </div>
         @endif
         <div class="description">
-            <b>{{ $image->user->nick }}</b> {{ $image->description }}
+            <b><a href="{{ route('profile', ['id'=>$image->user->id]) }}" class="description-user">{{ $image->user->nick }}</a></b> {{ $image->description }}
             <br>
             <span class="fecha">{{ $image->created_at->diffForHumans(null, false, false, 1) }}</span>
 
