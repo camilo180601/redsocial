@@ -191,3 +191,8 @@ form .avatar{
     height: 100%;
     max-width: 100%;
 }
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}

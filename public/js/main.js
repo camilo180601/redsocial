@@ -53,4 +53,9 @@ window.addEventListener("load", function(){
         });
     }
     dislike();
+
+    //Buscador
+    $('#buscador').submit(function(e){
+		$(this).attr('action',url+'/people/'+$('#buscador #search').val());
+	});
 })
